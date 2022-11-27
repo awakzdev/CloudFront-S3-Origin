@@ -21,6 +21,6 @@ aws_secret_access_key = foo
 ```
 S3 - Will create a private bucket "ACL- Private"
 IAM Policy - Set to S3:GetObject on *
-CloudFront - Will set S3 as its origin allowing to retrieve files (host) from bucket
+CloudFront - Will set S3 as its origin allowing to host from bucket
 view-request.js - will append .html to website URL (Appended within "aws_cloudfront_function").
 ```
