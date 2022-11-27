@@ -12,5 +12,6 @@ aws_access_key_id = foo
 # the key pair and create a new one.
 aws_secret_access_key = foo
  ```
+ 
  ##### _SSH Key will need to be created using the following_
  `ssh-keygen -t ed25519` > You'll need to rename it to ec2 otherwise please edit the aws_key_pair resource under main.tf.
