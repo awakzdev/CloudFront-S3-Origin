@@ -1,4 +1,4 @@
-﻿### A Terraform Infrastructure to provision a cloudfront service and an S3 private bucket as its origin to allow static-page hosting
+﻿### A Terraform Infrastructure to provision a cloudfront and an S3 private bucket as its origin to allow static-page hosting
  <hr>
  
  ##### _Credentials key file is set within ~/.aws/credentials - Please create or use a different approach. [refer to documentation](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)_
